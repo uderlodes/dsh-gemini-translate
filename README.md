@@ -7,7 +7,7 @@ DeepSeek Harness (DSH) plugin. Translate Chinese in the composer to English with
 ## Install
 
 ```bash
-dsh plugin --profile web add github:zoozlmaki-byte/dsh-gemini-translate
+dsh plugin --profile web add github:uderlodes/dsh-gemini-translate
 ```
 
 Restart DSH Desktop after install.

@@ -33,12 +33,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zoozlmaki-byte/dsh-gemini-translate.git"
+    "url": "git+https://github.com/uderlodes/dsh-gemini-translate.git"
   },
   "bugs": {
-    "url": "https://github.com/zoozlmaki-byte/dsh-gemini-translate/issues"
+    "url": "https://github.com/uderlodes/dsh-gemini-translate/issues"
   },
-  "homepage": "https://github.com/zoozlmaki-byte/dsh-gemini-translate#readme",
+  "homepage": "https://github.com/uderlodes/dsh-gemini-translate#readme",
   "peerDependencies": {
     "@deepseek-ai/cordis": "*",
     "@deepseek-ai/schemastery": "*",
