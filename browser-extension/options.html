@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gemini Translate 设置</title>
+  <link rel="stylesheet" href="ui.css" />
+</head>
+<body class="options">
+  <h1>Gemini Translate 设置</h1>
+  <p class="hint">支持 Google 官方 Gemini，或任意 OpenAI 兼容接口（DeepSeek、中转站、本地模型等）。</p>
+
+  <label>API Key</label>
+  <input id="apiKey" type="password" autocomplete="off" placeholder="已配置则留空不改" />
+
+  <label>Base URL</label>
+  <input id="baseUrl" type="url" placeholder="https://generativelanguage.googleapis.com" />
+
+  <label>接口类型</label>
+  <select id="apiType">
+    <option value="google">google（官方 generateContent）</option>
+    <option value="openai">openai（/v1/chat/completions）</option>
+  </select>
+
+  <label>模型</label>
+  <input id="model" type="text" placeholder="gemini-2.5-flash" />
+  <select id="modelSelect" hidden></select>
+
+  <div class="row">
+    <button id="probe" type="button" class="ghost">探测模型</button>
+    <button id="save" type="button">保存</button>
+  </div>
+  <p id="status" class="status"></p>
+  <script src="options.js"></script>
+</body>
+</html>

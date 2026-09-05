@@ -36,6 +36,10 @@ For an OpenAI-compatible proxy, set `apiType: openai` and `baseUrl` to that `/v1
 
 Do **not** also insert `id: gemini-translate` in the profile `cordis.patch.yml`. The bundle patch already inserts it once. A second insert causes `duplicate loader entry id: gemini-translate`.
 
+## Browser extension (Chrome / Firefox)
+
+Unpacked extension in [`browser-extension/`](browser-extension/README.md): toolbar popup, right-click selection translate, Gemini or any OpenAI-compatible model.
+
 ## License
 
 MIT
