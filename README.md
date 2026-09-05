@@ -38,7 +38,7 @@ Do **not** also insert `id: gemini-translate` in the profile `cordis.patch.yml`.
 
 ## Browser extension (Chrome / Firefox)
 
-Unpacked extension in [`browser-extension/`](browser-extension/README.md): toolbar popup, right-click selection translate, Gemini or any OpenAI-compatible model.
+Moved to a separate repo: https://github.com/uderlodes/gemini-translate-extension
 
 ## License
 
