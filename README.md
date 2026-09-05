@@ -19,7 +19,7 @@ Restart DSH Desktop after install.
 3. Click **译发** (Translate & Send).
 4. After the assistant replies in English, click **把这条回复译成中文** under that message.
 
-Settings → Plugins → Gemini 翻译: API key, model, base URL, `google` vs `openai` API type.
+Settings → Plugins → Gemini 翻译: API key, model, base URL, `google` vs `openai` API type. Click **探测模型** to list models from the current endpoint, then pick one and save.
 
 ## Config
 
