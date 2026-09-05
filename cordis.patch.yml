@@ -1,0 +1,10 @@
+# Bundle patch: insert this plugin into the profile loader tree exactly once.
+# Do not also insert the same id in the profile's cordis.patch.yml.
+- insert:
+    - id: gemini-translate
+      name: gemini-translate
+      config:
+        apiKeyEnv: GEMINI_API_KEY
+        baseUrl: https://generativelanguage.googleapis.com
+        model: gemini-2.5-flash
+        apiType: google
